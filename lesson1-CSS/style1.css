@@ -1,0 +1,12 @@
+#page1{
+    color: blue;
+    front-size: 40%;
+    background-image:url(./flowers_name_in_english.jpg);
+}
+
+.paragraf1{
+    color: whitesmoke;
+    background-image:url(./flowers_name_in_english.jpg);
+    width: 30%;
+    height: 30%;
+}
