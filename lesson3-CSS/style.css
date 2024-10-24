@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+    width: 250vw;
+    height: 250vw;
+    background-color: blueviolet;
+    font: 30px sans-serif;
+}
+p{
+    font: 1em sans-serif;
+}
+.par{
+    font-size: 2rem;
+}
+p{
+    display: block;
+    background-color: red;
+}
