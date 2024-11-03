@@ -23,7 +23,7 @@ body{
 */
 a:hover{
 color: red;
-front-size: 16%;;
+font-size: 100px;
 }
 
 a:focus{
@@ -39,7 +39,8 @@ button:focus{
 }
 
 input:focus{
-    color: yellowgreen;
+    color: red;
+    background-color: yellow;
 }
 
 a:nth-child(2):hover{
@@ -49,14 +50,14 @@ input[type="password"]:hover{
 
     background-color:blue;
 }
-a :nth-child(2):hover{
+a:nth-child(2):hover{
     color: yellow;
     background-color: brown;
 }
 
 
-a :nth-child(1):hover
-duz moterze type pasword olmadi
+a:nth-child(1):hover
+
 input:hover{
     background-color: blueviolet;
 }

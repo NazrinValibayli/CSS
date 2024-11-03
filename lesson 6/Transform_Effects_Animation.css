@@ -1,0 +1,52 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: olivedrab;
+ position: relative;
+animation-name: Nazrin;
+animation-duration: 4s;
+animation-timing-function: linear 0.5;
+animation-iteration-count: infinite;
+  /* animation:  name duration timing-function delay iteration-count direction fill-mode;*/
+
+}
+
+/*.box:hover{
+    transform: translateY(120px);
+   /* transform: rotate(45deg);*/
+    /*transform: scaleX(1.2);*/
+   /*transform: skew(45deg);
+}*/
+
+/*button:hover{
+    box-shadow: 2px 2px 2px 2px blue;
+    filter: brightness(5.0);
+
+}
+
+p{
+    text-shadow: 1px 1px 0px #ff0000;
+}*/
+
+@keyframes Nazrin{
+0%{
+    top: 0px;
+    left: 0px;
+}
+25%{
+    top: 0px;
+    left: 100px;
+}
+50%{
+    top: 100px;
+    left: 100px;
+}
+75%{
+    top: 100px;
+    left: 0px;
+}
+100%{
+    top: 0px;
+    left: 0px;
+}
+}

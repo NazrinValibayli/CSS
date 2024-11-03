@@ -1,0 +1,53 @@
+.Mybutton{
+    padding: 0px;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100px;
+    background-color: plum;
+    color: blue;
+    font-size: 26px;
+    font-weight: 900px;
+    box-shadow: 3px 2px 7px 2px black;
+    transition: background-color 0.5s ease, font-size 0.5s ease;
+}
+.Mybutton:hover{
+    background-color: brown;
+    box-shadow: 3px 2px 7px 2px green;
+    font-size: 24px;
+
+}
+.Nbutton{
+    padding: 0px;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100px;
+    background-color: blue;
+    color: plum;
+    font-size: 26px;
+    font-weight: 900px;
+    box-shadow: 3px 2px 7px 2px black;
+    transition: background-color 0.9s linear font-size 0.5s ease-out;
+}
+.Nbutton:hover{
+    background-color: brown;
+    box-shadow: 3px 2px 7px 2px green;
+    font-size: 24px;
+
+}
+.Lbutton{
+    padding: 0px;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    font-size: 26px;
+    font-weight: 900px;
+    box-shadow: 3px 2px 7px 2px black;
+    transition: background-color 0.4s ease-in font-size 0.5s ease-in-out;
+}
+.Lbutton:hover{
+    background-color: brown;
+    box-shadow: 3px 2px 7px 2px green;
+    font-size: 24px;
+}
