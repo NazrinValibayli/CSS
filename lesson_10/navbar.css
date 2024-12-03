@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    width: 40px;
+    gap:20px;
+}
+
+li{
+    background-color: azure;
+    padding: 35px;
+    display: inline-block;
+    border-radius: 80px;
+    font-size: 15px;
+    color: blueviolet;
+    }
+    a{
+        text-decoration: none;
+        color: blueviolet;
+    }
