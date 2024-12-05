@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltips{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(255, 208, 150) ;
+    padding: 50px;
+}
+
+h2{
+text-align: center;
+color: brown;
+}
+
+.tool-content{
+    display: none;
+    color: rgb(249, 186, 110); 
+}
+.tool-content{
+    display: none;
+}
+
+.tooltips h2:hover{
+    border-bottom: 2px solid pink;
+    cursor: pointer;
+}
+
+.tooltips h2:hover + .tool-content{
+    display: block;
+}
+

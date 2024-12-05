@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.dropdown{
-  display: inline-block;
+.dropdown {
+    display: inline-block;
     padding: 15px 25px;
     width: 100%;
     background-color: blueviolet;
@@ -14,7 +14,7 @@
 
 }
 
-.dropdown-content{
+.dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
@@ -22,12 +22,13 @@
     width: 100%;
 }
 
-.dropdown-content p{
+.dropdown-content p {
     padding: 10px 20px;
     background-color: rgb(255, 6, 6);
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
     display: block;
     cursor: pointer;
+    background-color: rgb(203, 87, 87);
 }
